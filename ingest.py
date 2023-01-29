@@ -15,7 +15,7 @@ def clean_data(data):
 
 docs = []
 metadatas = []
-for p in Path("langchain.readthedocs.io/en/latest/").rglob("*"):
+for p in Path("http://docs.mantle.xyz/").rglob("*"):
     if p.is_dir():
         continue
     with open(p) as f:
